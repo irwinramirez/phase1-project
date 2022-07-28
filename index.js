@@ -15,3 +15,8 @@ function displayPlant(plant){
   // document.querySelector("div")
   div.classList.add("card")
   // const descr = plant.description
+  const p = document.createElement("p")
+    p.classList.add("pclass")
+    p.innerText = plant.description
+    const img = document.createElement("img")
+    // document.querySelector("img")
