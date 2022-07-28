@@ -1,0 +1,10 @@
+{
+  "plants" :[
+    {
+      "id":1,
+      "name": "cactus",
+      "image": "https://img.freepik.com/free-vector/cactus-pot_1308-30632.jpg?t=st=1657599246~exp=1657599846~hmac=46254f6272e4f34d696c965ccaaba15dc32451e677d011e54bff2b47e6fa8fcf&w=996",
+      "description": "this is a nice cactus"
+    }
+  ]
+}
