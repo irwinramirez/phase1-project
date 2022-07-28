@@ -33,3 +33,10 @@ function displayPlant(plant){
     div.append(img, p, button)
     plantCollection.append(div)
 }
+function mouseEvent(){
+  document.querySelectorAll(".card").forEach(card  => {
+    card.addEventListener("mouseenter",() => {
+      const plantInfo = card.querySelector(".pclass")
+      plantInfo.classList.add("display")
+      
+    })
