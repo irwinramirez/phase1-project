@@ -43,6 +43,10 @@ button:hover {
   color: black;
   font-size: larger;
 }
+.display {
+  display: block;
+  float: center;
+}
 footer{
   text-align: center;
   color: rgb(255, 255, 255);

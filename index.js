@@ -10,12 +10,12 @@ function getPlants(){
 getPlants()
 
 function displayPlant(plant){
-  const plantCollection = document.getElementById("plant-collection")
-  const div = document.createElement("div")
-  // document.querySelector("div")
-  div.classList.add("card")
-  // const descr = plant.description
-  const p = document.createElement("p")
+    const plantCollection = document.getElementById("plant-collection")
+    const div = document.createElement("div")
+    // document.querySelector("div")
+    div.classList.add("card")
+    // const descr = plant.description
+    const p = document.createElement("p")
     p.classList.add("pclass")
     p.innerText = plant.description
     const img = document.createElement("img")
@@ -33,19 +33,23 @@ function displayPlant(plant){
     div.append(img, p, button)
     plantCollection.append(div)
 }
+
 function mouseEvent(){
   document.querySelectorAll(".card").forEach(card  => {
+   
     card.addEventListener("mouseenter",() => {
+            // console.log('event', e)
+            // console.log("mouse on")
       const plantInfo = card.querySelector(".pclass")
       plantInfo.classList.add("display")
       
     })
     card.addEventListener("mouseleave",e => {
-      // console.log('event', e)
-      // console.log("mouse off")
-      const plantInfo = card.querySelector(".pclass")
-      plantInfo.classList.remove("display")
-    })
+            // console.log('event', e)
+            // console.log("mouse off")
+            const plantInfo = card.querySelector(".pclass")
+            plantInfo.classList.remove("display")
+        })
   })
 }
 function btn(){
@@ -57,3 +61,4 @@ function btn(){
   })
 }
 btn()
+
