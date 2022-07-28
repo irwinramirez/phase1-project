@@ -1,3 +1,6 @@
 h1{
   text-align: center;
 }
+#plant-collection::after{
+  margin: 2rem;
+}
