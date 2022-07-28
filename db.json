@@ -17,7 +17,12 @@
       "name":"tree",
       "image":"https://img.freepik.com/premium-vector/tree-planting-pot_1308-14179.jpg?w=996",
       "description": "hairy styles"
-
+    },
+    {
+      "id": 4,
+      "name": "aloe vera",
+      "image": "https://img.freepik.com/premium-vector/aloe-vera-plant-pot_1308-13770.jpg?w=1380",
+      "description": "al"
     }
   ]
 }
