@@ -24,3 +24,12 @@ function displayPlant(plant){
     img.classList.add("plant-list")
     const button = document.createElement("button")
     // document.querySelector("button")
+    button.classList.add("donate-btn")
+    button.id = plant.id
+    button.textContent = "Donate"
+    button.addEventListener("click",() => {
+      alert("Thanks for your donation!")
+    })
+    div.append(img, p, button)
+    plantCollection.append(div)
+}
