@@ -20,3 +20,7 @@ function displayPlant(plant){
     p.innerText = plant.description
     const img = document.createElement("img")
     // document.querySelector("img")
+    img.src = plant.image
+    img.classList.add("plant-list")
+    const button = document.createElement("button")
+    // document.querySelector("button")
