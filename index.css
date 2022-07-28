@@ -15,3 +15,8 @@ h1{
   margin: 1rem 2rem;
   box-shadow: 3px 4px green;
  }
+ .plant-list{
+  justify-self: center;
+  height: 12rem;
+  width: auto;
+}
