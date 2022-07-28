@@ -36,3 +36,10 @@ button:hover {
   border: green solid 2.5px;
   color: green;
 }
+.pclass {
+  display: none;
+  font-size: medium;
+  font-family:‘Trebuchet MS’, ‘Lucida Sans Unicode’, ‘Lucida Grande’, ‘Lucida Sans’, Arial, sans-serif;
+  color: black;
+  font-size: larger;
+}
