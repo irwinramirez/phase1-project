@@ -8,3 +8,10 @@ function getPlants(){
 }
 
 getPlants()
+
+function displayPlant(plant){
+  const plantCollection = document.getElementById("plant-collection")
+  const div = document.createElement("div")
+  // document.querySelector("div")
+  div.classList.add("card")
+  // const descr = plant.description
