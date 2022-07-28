@@ -48,3 +48,12 @@ function mouseEvent(){
     })
   })
 }
+function btn(){
+  const form = document.querySelector("#subscribe")
+  form.addEventListener("submit", (e)=> {
+    e.preventDefault()
+    alert("You've subcribed to our newsletter!")
+    // console.log(e)
+  })
+}
+btn()
