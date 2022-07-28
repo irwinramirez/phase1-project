@@ -31,3 +31,8 @@ button {
   font-size: 18px;
   justify-self: center;
 }
+button:hover {
+  background-color: whitesmoke;
+  border: green solid 2.5px;
+  color: green;
+}
