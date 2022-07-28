@@ -40,3 +40,11 @@ function mouseEvent(){
       plantInfo.classList.add("display")
       
     })
+    card.addEventListener("mouseleave",e => {
+      // console.log('event', e)
+      // console.log("mouse off")
+      const plantInfo = card.querySelector(".pclass")
+      plantInfo.classList.remove("display")
+    })
+  })
+}
