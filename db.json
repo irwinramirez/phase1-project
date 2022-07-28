@@ -11,6 +11,13 @@
       "name": "vector p",
       "image": "https://img.freepik.com/free-vector/plant-growing-pot_1308-13465.jpg?t=st=1657599246~exp=1657599846~hmac=3e9c539efab6eb51dcabb9a331b114ffcff6e68799638a1a5445ed869c6ba102&w=1060",
       "description": "this is another nice cactus"
+    },
+    {
+      "id": 3,
+      "name":"tree",
+      "image":"https://img.freepik.com/premium-vector/tree-planting-pot_1308-14179.jpg?w=996",
+      "description": "hairy styles"
+
     }
   ]
 }
